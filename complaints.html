@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<title>My Example</title>
+
+<form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+<html>
+    <head>
+        <title>Web Form</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+    </head>
+    <body>
+        <div id="header"><h1>Complaints and Feedback</h1></div>
+        <div id="wrapper">
+            <div id="inputs">
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>Complaints</legend>
+<p><label> <input type="checkbox" name="extras" value="Broken"> Broken Armrest </label></p>
+<p><label> <input type="checkbox" name="extras" value="Broken"> Broken Traytable </label></p>
+<p><label> <input type="checkbox" name="extras" value="Broken"> Broken Entertainment System </label></p>
+<p><label> <input type="checkbox" name="extras" value="Broken"> WiFi Issues </label></p>
+<p><label> <input type="checkbox" name="extras" value="Broken"> Broken Vent </label></p>
+<p><label> <input type="checkbox" name="extras" value="Broken"> Broken Seat </label></p>
+<p><label> <input type="checkbox" name="extras" value="Broken"> Broken HeadPhones</label></p>
+<p><label> <input type="checkbox" name="extras" value="Broken"> Condensation Issues </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Staff Complaints</legend>
+<p><label> <input type="checkbox" name="extras" value="staff"> Behaviour </label></p>
+<p><label> <input type="checkbox" name="extras" value="staff"> Service </label></p>
+<p>
+<label>Other
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+</fieldset>
+<p>
+
+
+
+<p>
+<label>Feedback
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit</button></p>
+
+</form>
